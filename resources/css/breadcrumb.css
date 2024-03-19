@@ -2,3 +2,13 @@
 .breadcrumb li {
 display: inline;
 }
+
+.breadcrumb li:not(:first-child)::before {
+    content: ">";
+  }
+
+  a:hover {
+    color: red;
+    text-decoration: none
+    
+  }
