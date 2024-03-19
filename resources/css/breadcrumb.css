@@ -1,0 +1,4 @@
+/*display breadcrumbs on one line*/
+.breadcrumb li {
+display: inline;
+}
